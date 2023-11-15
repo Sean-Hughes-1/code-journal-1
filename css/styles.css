@@ -44,3 +44,48 @@ button {
   border: none;
   border-radius: 10%;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 1rem;
+  display: flex;
+    flex-direction: row;
+}
+
+.row.new {
+  justify-content: flex-end;
+}
+
+#navbar-entries {
+  color: white;
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+  padding: 1rem;
+}
+
+h4 {
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  li {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
+  .column-half {
+    width: 100%;
+  }
+
+  .column-half img {
+    margin: 0 auto;
+  }
+}
